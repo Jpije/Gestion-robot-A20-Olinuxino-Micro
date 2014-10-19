@@ -1,0 +1,4 @@
+./robot --docroot . --http-address 10.11.0.107   --http-port 9090
+
+ g++ -o robot robot.cpp  -lwthttp -lwt
+
